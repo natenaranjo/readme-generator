@@ -100,7 +100,7 @@ See the [open issues](https://github.com/${data.username}/${data.repo}/issues) f
 <!-- CONTRIBUTING -->
 ## Contributing
 
-${data.contributing}
+${data.contribution}
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
