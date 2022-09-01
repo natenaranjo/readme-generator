@@ -1,4 +1,5 @@
-
+function generateMarkdown(data) {
+return `
 <a name="readme-top"></a>
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -17,19 +18,19 @@
     <img src="img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h2 align="center">Test</h2>
+  <h2 align="center">${data.title}</h2>
 
   <p align="center">
     Explore the document by the links below:
     <br />
-    <a href="https://github.com/natenaranjo/undefined"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/${data.username}/${data.repo}"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/natenaranjo/undefined">View Demo</a>
+    <a href="https://github.com/${data.username}/${data.repo}">View Demo</a>
     ·
-    <a href="https://github.com/natenaranjo/undefined/issues">Report Bug</a>
+    <a href="https://github.com/${data.username}/${data.repo}/issues">Report Bug</a>
     ·
-    <a href="https://github.com/natenaranjo/undefined/issues">Request Feature</a>
+    <a href="https://github.com/${data.username}/${data.repo}/issues">Request Feature</a>
   </p>
 </div>
 
@@ -55,9 +56,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/natenaranjo/undefined)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/${data.username}/${data.reop})
 
-test
+${data.description}
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +66,7 @@ test
 
 ## Installation
 
-test
+${data.installation}
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +75,7 @@ test
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-test
+${data.usage}
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +100,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <!-- CONTRIBUTING -->
 ## Contributing
 
-undefined
+${data.contributing}
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,7 +109,7 @@ undefined
 <!-- LICENSE -->
 ## License
 
-MIT
+${data.license}
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +118,9 @@ MIT
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/undefined) - natenaranjodev@gmail.com
+Github  - [${data.username}](https://github.com/${data.username})  
+Twitter - [@${data.twitter}](https://twitter.com/${data.twitter})
+Email   - [Email Me](${data.email})
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
@@ -145,18 +148,21 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/natenaranjo/undefined.svg?style=for-the-badge
-[contributors-url]: https://github.com/natenaranjo/undefined/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/undefined/undefined.svg?style=for-the-badge
-[forks-url]: https://github.com/natenaranjo/undefined/network/members
-[stars-shield]: https://img.shields.io/github/stars/natenaranjo/undefined.svg?style=for-the-badge
-[stars-url]: https://github.com/natenaranjo/undefined/stargazers
-[issues-shield]: https://img.shields.io/github/issues/natenaranjo/undefined.svg?style=for-the-badge
-[issues-url]: https://github.com/natenaranjo/undefined/issues
-[license-shield]: https://img.shields.io/github/license/natenaranjo/undefined.svg?style=for-the-badge
-[license-url]: https://github.com/natenaranjo/undefined/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/${data.username}/${data.repo}.svg?style=for-the-badge
+[contributors-url]: https://github.com/${data.username}/${data.repo}/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/${data.usename}/${data.repo}.svg?style=for-the-badge
+[forks-url]: https://github.com/${data.username}/${data.repo}/network/members
+[stars-shield]: https://img.shields.io/github/stars/${data.username}/${data.repo}.svg?style=for-the-badge
+[stars-url]: https://github.com/${data.username}/${data.repo}/stargazers
+[issues-shield]: https://img.shields.io/github/issues/${data.username}/${data.repo}.svg?style=for-the-badge
+[issues-url]: https://github.com/${data.username}/${data.repo}/issues
+[license-shield]: https://img.shields.io/github/license/${data.username}/${data.repo}.svg?style=for-the-badge
+[license-url]: https://github.com/${data.username}/${data.repo}/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/natenaranjo
+[linkedin-url]: https://linkedin.com/in/${data.username}
 [product-screenshot]: img/screenshot.png
 
 
+`}
+
+module.exports = generateMarkdown;
