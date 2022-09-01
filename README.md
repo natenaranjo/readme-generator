@@ -55,8 +55,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<iframe src="https://drive.google.com/file/d/1YAg2c6HLS8PQC_B1RDvNN5m-nv1Z6R3S/preview" width="640" height="480"></iframe>
+
 [![Project Screenshot][project-screenshot]](https://github.com/natenaranjo/readme-generator)
-[![Video][project-video]](/img/screenify.webm)
 
 Create a Readme markdown file by terminal using node.js
 
@@ -161,6 +162,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/natenaranjo
 [project-screenshot]: /img/readmeshot.png
-[project-video]: /img/screenify.webm
+
 
 
