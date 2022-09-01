@@ -14,7 +14,7 @@ return `
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/${data.username}/${data.repo}">
     <img src="img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -56,7 +56,7 @@ return `
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/${data.username}/${data.reop})
+[![Project Screenshot][project-screenshot]](https://github.com/${data.username}/${data.repo})
 
 ${data.description}
 
@@ -91,7 +91,7 @@ ${data.usage}
     - [ ] Chinese
     - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/${data.username}/${data.repo}/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,7 +109,7 @@ ${data.contributing}
 <!-- LICENSE -->
 ## License
 
-${data.license}
+${data.licenseBadge}
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +122,7 @@ Github  - [${data.username}](https://github.com/${data.username})
 Twitter - [@${data.twitter}](https://twitter.com/${data.twitter})
 Email   - [Email Me](${data.email})
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/${data.username}/${data.repo}](https://github.com/${data.username}/${data.repo})
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,7 +160,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/${data.username}/${data.repo}/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/${data.username}
-[product-screenshot]: img/screenshot.png
+[project-screenshot]: /img/screenshot.png
 
 
 `}
