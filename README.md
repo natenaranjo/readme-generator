@@ -55,8 +55,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<iframe src="https://drive.google.com/file/d/1YAg2c6HLS8PQC_B1RDvNN5m-nv1Z6R3S/preview" width="640" height="480"></iframe>
-
 [![Project Screenshot][project-screenshot]](https://github.com/natenaranjo/readme-generator)
 
 Create a Readme markdown file by terminal using node.js
