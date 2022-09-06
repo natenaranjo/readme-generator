@@ -25,7 +25,7 @@
     <a href="https://github.com/natenaranjo/readme-generator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/natenaranjo/readme-generator">View Demo</a>
+    <a href="https://watch.screencastify.com/v/c9nX51yRLJjuCg3rLRpp">View Demo</a>
     ·
     <a href="https://github.com/natenaranjo/readme-generator/issues">Report Bug</a>
     ·
@@ -59,13 +59,20 @@
 
 Create a Readme markdown file by terminal using node.js
 
+You can view a live demo of the app by click the "View Demo" button under the title.  
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
 ## Installation
 
-using node in termainl to run index.js
+- Clone repository to your folder.
+- You an use npm install or yarn install to add the dependencies.
+- Once you installed all the dependencies needed... 
+  - Make sure your terminal is cd into the main folder.
+  - Run `` Node Index.js `` to start the app in the terminal..
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,13 +89,17 @@ A simple readme markdown file creator without having to type all the extra words
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Prmmpted for information on collecting for repository
+- [x] Creates a Profressional Style README.md after completing prmompts.
+- [x] Prompt for Responses
+    - [x] Prompted for Title
+    - [x] Prompted for Description
+    - [x] Prompted for Installation
+    - [x] Prompted for Contribution
+    - [x] Prompted for Test Instructions
+    - [x] Prompted for Github username
+    - [x] Prompted for Email address
+- [x] Recorded a video and link on README for demo.  
 
 See the [open issues](https://github.com/natenaranjo/readme-generator/issues) for a full list of proposed features (and known issues).
 
